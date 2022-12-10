@@ -1,0 +1,34 @@
+{
+  "name": "subway_surface_cli",
+  "version": "1.0.0",
+  "description": "Subway Surface Game in CLI",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc -p tsconfig.json && node dist/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KR1470R/subway_surface_cli.git"
+  },
+  "keywords": [
+    "Subway Surface",
+    "CLI",
+    "node.js",
+    "typescript",
+    "javascript"
+  ],
+  "author": "KR1470R",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/KR1470R/subway_surface_cli/issues"
+  },
+  "homepage": "https://github.com/KR1470R/subway_surface_cli#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "ts": "^0.2.2"
+  }
+}
